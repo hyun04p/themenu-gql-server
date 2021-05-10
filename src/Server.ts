@@ -7,6 +7,7 @@ const now = new Date().getTime();
 app.get('/', (req, res) => {
   res.json({
     timestampe: now,
+    message: 'woah?',
   });
 });
 
